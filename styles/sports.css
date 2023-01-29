@@ -285,7 +285,7 @@ section.active .modalBoxC {
 	.SportsPrimary_navigation .hamburger {
 		display: block;
 		position: relative;
-		z-index: 1;
+		z-index: 999999;
 
 		margin-left: auto;
 		margin-right: 0;
@@ -308,7 +308,7 @@ section.active .modalBoxC {
 
 		background-color: var(--textColor);
 		border-radius: 6px;
-		z-index: 1;
+		z-index: 999999;
 
 		transform-origin: 0 0;
 
@@ -345,7 +345,7 @@ section.active .modalBoxC {
 		flex-direction: column;
 		transform: translateX(100%);
 		transition: all 0.25s linear;
-		z-index: 9999999;
+		z-index: 9999;
 
 		opacity: 00.57;
 		/* visibility: hidden; */
